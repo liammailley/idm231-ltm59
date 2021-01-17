@@ -4,8 +4,8 @@
 
 ### Figure out theme
 
-Ideas:
-  - 
+##### Theme Ideas:
+
 
 ### Develop visual style
 
