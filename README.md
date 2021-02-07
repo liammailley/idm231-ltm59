@@ -2,10 +2,20 @@
 
 ## To Do:
 
-### Figure out theme
+### Zodiac Potato Chip Flavors
 
-- genres of music
-- Which boring supermarket are you? (target, walmart, costco, and so on)
+1.) Plain
+2.) Lightly Salted
+3.) Slat and Vinegar
+4.) BBQ
+5.) Sour Cream and Onion
+6.) Dill Pickle
+7.) Cheddar Jalapeno
+8.) Flamin' Hot
+9.) Chile Limon
+10.) Salt and Pepper
+11.) Baked
+12.) Kettle Cooked
 
 
 ### Develop visual style
