@@ -4,18 +4,18 @@
 
 ### Zodiac Potato Chip Flavors
 
-1.) Plain
-2.) Lightly Salted
-3.) Slat and Vinegar
-4.) BBQ
-5.) Sour Cream and Onion
-6.) Dill Pickle
-7.) Cheddar Jalapeno
-8.) Flamin' Hot
-9.) Chile Limon
-10.) Salt and Pepper
-11.) Baked
-12.) Kettle Cooked
+- Original
+- Lightly Salted
+- Salt and Vinegar
+- BBQ
+- Sour Cream and Onion
+- Dill Pickle
+- Cheddar Jalapeno
+- Flamin' Hot
+- Chile Limon
+- Salt and Pepper
+- Baked
+- Kettle Cooked
 
 
 ### Develop visual style
