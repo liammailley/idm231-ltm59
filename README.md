@@ -10,7 +10,7 @@
 - BBQ
 - Sour Cream and Onion
 - Dill Pickle
-- Cheddar Jalapeno
+- Cheddar and Sour Cream
 - Flamin' Hot
 - Chile Limon
 - Salt and Pepper
