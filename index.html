@@ -5,7 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Potato Chip Zodiac</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="main.css">
+  <style>
+    body {
+      background-image: url('231background.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
 </head>
 
 <!--
@@ -49,26 +57,71 @@ His lines on the popup modals:
 -->
 <body class="blackScreen" onload="fade2Content();">
   <div id="wrapper">
-    <div>
-      <img id="display" src="img/ful_blank.png" alt="blank">
+    <h1>
+      Enter Your Birth Date
+    </h1>
+      <!-- Form to submit name/date: -->
+    <form id="myForm" name="myForm">
+      <div class="control">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Jane Doe"
+          value="Anthony"
+          required
+        />
+      </div>
+      <div class="control">
+        <label for="date">Date</label>
+        <input
+          type="date"
+          id="date"
+          name="date"
+          value="02/22/1980"
+          required
+        />
+        <p class="feedback" hidden>
+          Please enter a valid date mm/dd/yyyy.
+        </p>
+      </div>
+      <div class="control">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+
+
+  <!--<div class="placeholder">
+    <p>
+      placeholder
+    </p>
+  </div>-->
+
+<!-- "choiceandpotato" refers to the single grid row containing both manual flavor choices, and the Mr. Potato Decoration.-->
+  <div class="choiceandpotato">
+      <div class="manualchoice">
+          <input type="image" src="images/original.png" name="Original" class="zButton" id="original"/>
+          <input type="image" src="images/lightlysalted.png" name="Lightly Salted" class="zButton" id="lsalted"/>
+          <input type="image" src="images/saltandvinegar.png" name="Salt and Vinegar" class="zButton" id="sandv"/>
+          <input type="image" src="images/bbq.png" name="BBQ" class="zButton" id="bbq"/>
+          <input type="image" src="images/sourcreamandonion.png" name="Sour Cream and Onion" class="zButton" id="scando"/>
+          <input type="image" src="images/dillpickle.png" name="Dill Pickle" class="zButton" id="dillpickle"/>
+          <input type="image" src="images/cheddarandsourcream.png" name="Cheddar and Sour Cream" class="zButton" id="candsc"/>
+          <input type="image" src="images/flaminhot.png" name="Flamin' Hot" class="zButton" id="flaminhot"/>
+          <input type="image" src="images/chilelimon.png" name="Chile Limon" class="zButton" id="chilelimon"/>
+          <input type="image" src="images/saltandpepper.png" name="Salt and Pepper" class="zButton" id="sandp"/>
+          <input type="image" src="images/baked.png" name="Baked" class="zButton" id="baked"/>
+          <input type="image" src="images/kettlecooked.png" name="Kettle Cooked" class="zButton" id="kettlecooked"/>
+      </div>
+    <div class="mrpotatobox">
+      <div class="speech-bubble">
+        Heya friend, I'm Mr. Potato! I'm here to help you find YOUR chip flavor. Input your birth date to get started!
+      </div>
+      <img class="mrpotato" src="images/mrpotato.png" alt="Mr. Potato">
     </div>
-    <hr>
-    <div>
-        <button class="zButton" id="original">Original</button>
-        <button class="zButton" id="lsalted">Lightly Salted</button>
-        <button class="zButton" id="sandv">Salt and Vinegar</button>
-        <button class="zButton" id="bbq">BBQ</button>
-        <button class="zButton" id="scando">Sour Cream and Onion</button>
-        <button class="zButton" id="dillpickle">Dill Pickle</button>
-        <button class="zButton" id="candsc">Cheddar and Sour Cream</button>
-        <button class="zButton" id="flaminhot">Flamin' Hot</button>
-        <button class="zButton" id="chilelimon">Chile Limon</button>
-        <button class="zButton" id="sandp">Salt and Pepper</button>
-        <button class="zButton" id="baked">Baked</button>
-        <button class="zButton" id="kettle">Kettle Cooked</button>
-    </div>
-    <hr>
-    <p>What Potato Chip Flavor Are You?</p>
   </div>
   <script src="main.js"></script>
 </body>

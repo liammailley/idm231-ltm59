@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Subway';
+    src: url('Subway-Black.woff2') format('woff2'),
+        url('Subway-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Subway Shadow';
+    src: url('Subway-Shadow.woff2') format('woff2'),
+        url('Subway-Shadow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
