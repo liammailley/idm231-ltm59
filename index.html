@@ -56,40 +56,42 @@ His lines on the popup modals:
 
 -->
 <body class="blackScreen" onload="fade2Content();">
-  <div id="wrapper">
-    <h1>
-      Enter Your Birth Date
-    </h1>
-      <!-- Form to submit name/date: -->
-    <form id="myForm" name="myForm">
-      <div class="control">
-        <label for="name">Name</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Jane Doe"
-          value="Anthony"
-          required
-        />
-      </div>
-      <div class="control">
-        <label for="date">Date</label>
-        <input
-          type="date"
-          id="date"
-          name="date"
-          value="02/22/1980"
-          required
-        />
-        <p class="feedback" hidden>
-          Please enter a valid date mm/dd/yyyy.
-        </p>
-      </div>
-      <div class="control">
-        <button type="submit">Submit</button>
-      </div>
-    </form>
+  <div class="formbox">
+    <div class="wrapper">
+      <h1>
+        Enter Your Birth Date
+      </h1>
+        <!-- Form to submit name/date: -->
+      <form id="myForm" name="myForm">
+        <div class="control">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Jane Doe"
+            value="Anthony"
+            required
+          />
+        </div>
+        <div class="control">
+          <label for="date">Date</label>
+          <input
+            type="date"
+            id="date"
+            name="date"
+            value="02/22/1980"
+            required
+          />
+          <p class="feedback" hidden>
+            Please enter a valid date mm/dd/yyyy.
+          </p>
+        </div>
+        <div class="control">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
   </div>
 
 
@@ -103,18 +105,18 @@ His lines on the popup modals:
 <!-- "choiceandpotato" refers to the single grid row containing both manual flavor choices, and the Mr. Potato Decoration.-->
   <div class="choiceandpotato">
       <div class="manualchoice">
-          <input type="image" src="images/original.png" name="Original" class="zButton" id="original"/>
-          <input type="image" src="images/lightlysalted.png" name="Lightly Salted" class="zButton" id="lsalted"/>
-          <input type="image" src="images/saltandvinegar.png" name="Salt and Vinegar" class="zButton" id="sandv"/>
-          <input type="image" src="images/bbq.png" name="BBQ" class="zButton" id="bbq"/>
-          <input type="image" src="images/sourcreamandonion.png" name="Sour Cream and Onion" class="zButton" id="scando"/>
-          <input type="image" src="images/dillpickle.png" name="Dill Pickle" class="zButton" id="dillpickle"/>
-          <input type="image" src="images/cheddarandsourcream.png" name="Cheddar and Sour Cream" class="zButton" id="candsc"/>
-          <input type="image" src="images/flaminhot.png" name="Flamin' Hot" class="zButton" id="flaminhot"/>
-          <input type="image" src="images/chilelimon.png" name="Chile Limon" class="zButton" id="chilelimon"/>
-          <input type="image" src="images/saltandpepper.png" name="Salt and Pepper" class="zButton" id="sandp"/>
-          <input type="image" src="images/baked.png" name="Baked" class="zButton" id="baked"/>
-          <input type="image" src="images/kettlecooked.png" name="Kettle Cooked" class="zButton" id="kettlecooked"/>
+          <input type="image" src="images/original.png" name="Original" class="zButton" id="original" onclick="original()"/>
+          <input type="image" src="images/lightlysalted.png" name="Lightly Salted" class="zButton" id="lsalted" onclick="lsalted()"/>
+          <input type="image" src="images/saltandvinegar.png" name="Salt and Vinegar" class="zButton" id="sandv" onclick="sandv()"/>
+          <input type="image" src="images/bbq.png" name="BBQ" class="zButton" id="bbq" onclick="bbq()"/>
+          <input type="image" src="images/sourcreamandonion.png" name="Sour Cream and Onion" class="zButton" id="scando" onclick="scando()"/>
+          <input type="image" src="images/dillpickle.png" name="Dill Pickle" class="zButton" id="dillpickle" onclick="dillpickle()"/>
+          <input type="image" src="images/cheddarandsourcream.png" name="Cheddar and Sour Cream" class="zButton" id="candsc" onclick="candsc()"/>
+          <input type="image" src="images/flaminhot.png" name="Flamin' Hot" class="zButton" id="flaminhot" onclick="flaminhot()"/>
+          <input type="image" src="images/chilelimon.png" name="Chile Limon" class="zButton" id="chilelimon" onclick="chilelimon()"/>
+          <input type="image" src="images/saltandpepper.png" name="Salt and Pepper" class="zButton" id="sandp" onclick="sandp()"/>
+          <input type="image" src="images/baked.png" name="Baked" class="zButton" id="baked" onclick="baked()"/>
+          <input type="image" src="images/kettlecooked.png" name="Kettle Cooked" class="zButton" id="kettlecooked" onclick="kettlecooked()"/>
       </div>
     <div class="mrpotatobox">
       <div class="speech-bubble">
