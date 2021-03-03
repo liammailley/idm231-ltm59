@@ -57,23 +57,21 @@ His lines on the popup modals:
 -->
 <body class="blackScreen" onload="fade2Content();">
 
-<!--  The Modal
-<div id="myModal" class="modal">
-      MODAL CONTENT
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2>YOUR FLAVOR IS...</h2>
-    </div>
-    <div class="modal-body">
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-    </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
-    </div>
-  </div>
-</div>-->
+
+
+<!-- Preload Sound Files -->
+<audio id="sndOriginal" src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
 
   <div class="formbox">
     <div class="wrapper">
@@ -143,6 +141,24 @@ His lines on the popup modals:
       </div>
       <img class="mrpotato" src="images/mrpotato.png" alt="Mr. Potato">
     </div>
+  </div>
+
+  <div id="modal" class="modal" hidden> <!-- YO ITS HIDDEN BC THERES A HIDDEN HERE-->
+    <div class="modal-body">
+      <div class="modal-content">
+        <div>
+          <img id="zDisplayImg" src="images/original.png" alt="blank">
+        </div>
+        <p>
+          <span id="zTitle">Title</span>, <span id="zDateRange">Date Range</span>
+        </p>
+        <div id="zMoreInfo">
+          <p>Object description goes here</p>
+        </div>
+        <button id="btn-modal-close" class="toggle-modal">Close</button>
+      </div>
+    </div>
+    <div class="blanket"></div>
   </div>
 
   <script src="main.js"></script>

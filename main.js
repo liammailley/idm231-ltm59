@@ -51,31 +51,42 @@ function kettlecooked() {
   console.log('Kettle Cooked');
 }
 
-/* Modal Code */
+// Sound Control
 
 
-// Get the modal
-var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+// userPicked, be sure to include modal.hidden = !modal.hidden
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+function userPicked(whichOne);
+  console.log('userPicked called: ' + whichOne);
+  switch (whichOne) {
+    case 'original':
+      zDisplayObj.src = 'images/original.png';
+      zTitleObj.innerHTML = 'ORIGINAL';
+      zDateRangeObj.innerHTML = '##-Month to ##-Month';
+      zMoreInfoObj.innerHTML = '<p>Original is cool I guess.</p>'
+      modal.hidden = !modal.hidden;
+      stopAllAudio();
+      bulletObj.play(); //CHANGE THIS TO UR AUDIO
+      break;
+    case 'lightlysalted':
 
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
   }
-}
+
+
+// Modal Controls
+
+const modal = document.getElementById('modal');
+const closeModalObj = document.getElementById('btn-modal-close');
+
+closeModalObj.addEventListener('click', function(){
+  modal.hidden = !modal.hidden;
+  stopAllAudio();
+});
+
+// Link modal element/objects from DOM tree to JS
+
+const zDisplayObj = document.getElementById('zDisplayImg');
+const zTitleObj = document.getElementById('zTitle');
+const zDateRangeObj = document.getElementById('zDateRange');
+const zMoreInfoObj = document.getElementById('zMoreInfo');
