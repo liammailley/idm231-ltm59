@@ -61,10 +61,10 @@ function userPicked(whichOne);
   console.log('userPicked called: ' + whichOne);
   switch (whichOne) {
     case 'original':
-      zDisplayObj.src = 'images/original.png';
-      zTitleObj.innerHTML = 'ORIGINAL';
-      zDateRangeObj.innerHTML = '##-Month to ##-Month';
-      zMoreInfoObj.innerHTML = '<p>Original is cool I guess.</p>'
+      zDisplayObj.src="images/original.png";
+      zTitleObj.innerHTML='ORIGINAL';
+      zDateRangeObj.innerHTML='##-Month to ##-Month';
+      zMoreInfoObj.innerHTML='<p>Original is cool I guess.</p>'
       modal.hidden = !modal.hidden;
       stopAllAudio();
       bulletObj.play(); //CHANGE THIS TO UR AUDIO
