@@ -18,9 +18,18 @@
 
 <!--
 
-Mr. Potato is a friendly character in the corner of the site.
-Normally his speech bubble says "Heya friend, I'm Mr. Potato! It's not copyright infringement if I don't mention my head.
-Input your birth date to get started!"
+Capricorn-    Original
+Aquarius-    Salt and Pepper
+Pisces-        Sour Cream and Onion
+Aries-        Flamin' Hot
+Taurus-        Kettle Cooked
+Gemini-        Salt and Vinegar
+Cancer-        Dill Pickle
+Leo-        BBQ
+Virgo-        Chile Limon
+Libra-        Lightly Salted
+Scorpio-    Cheddar Jalapeno
+Sagittarius-    Baked
 
 His lines on the popup modals:
 "Wow! That's a good... chip."
@@ -77,15 +86,14 @@ His lines on the popup modals:
         Enter Your Birth Date
       </h1>
         <!-- Form to submit name/date: -->
-      <form id="myForm" name="myForm">
+      <form id="userInfo" name="myForm">
         <div class="control">
           <label for="name">Name</label>
           <input
             type="text"
-            id="name"
+            id="fname"
             name="name"
-            placeholder="Jane Doe"
-            value="Your Name"
+            placeholder="Your First Name"
             required
           />
         </div>
@@ -93,17 +101,14 @@ His lines on the popup modals:
           <label for="date">Date</label>
           <input
             type="date"
-            id="date"
+            id="bday"
             name="date"
             value="02/22/1980"
             required
           />
-          <p class="feedback" hidden>
-            Do you want the flavor or not?? It's mm/dd/yyyy.
-          </p>
         </div>
         <div class="control">
-          <button id="btn-modal-open" class="toggle-modal" type="submit">Take Me To Flavor Town</button>
+          <button type='button' id="userSubmit">Take Me To Flavor Town</button>
         </div>
       </form>
     </div>
@@ -135,7 +140,7 @@ His lines on the popup modals:
       </div>
     <div class="mrpotatobox">
       <div class="speech-bubble">
-        Heya friend, I'm Mr. Potato! I'm here to help you find YOUR chip flavor. Input your birth date to get started!
+        &quot;
       </div>
       <img class="mrpotato" src="images/mrpotato.png" alt="Mr. Potato">
     </div>
@@ -148,7 +153,7 @@ His lines on the popup modals:
           <img id="zDisplayImg" src="images/original.png" alt="blank">
         </div>
         <p>
-          <span id="zTitle">Title</span>, <span id="zDateRange">Date Range</span>
+          <span id="zTitle">Title</span> <br> <span id="zDateRange">Date Range</span>
         </p>
         <div id="zMoreInfo">
           <p>Object description goes here</p>
