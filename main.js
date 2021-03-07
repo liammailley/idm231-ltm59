@@ -1,8 +1,3 @@
-// The Zodiac Algorithm
-
-
-
-
 // Fade in code
 
 function fade2Content() {
@@ -11,54 +6,104 @@ function fade2Content() {
 }
 
 
+// Buttons
 
-function original() {
-  console.log('Original');
-}
+const originalBtn = document.getElementById('original');
+const lsaltedBtn = document.getElementById('lsalted');
+const sandvBtn = document.getElementById('sandv');
+const bbqBtn = document.getElementById('bbq');
+const scandoBtn = document.getElementById('scando');
+const dillpickleBtn = document.getElementById('dillpickle');
+const candscBtn = document.getElementById('candsc');
+const flaminhotBtn = document.getElementById('flaminhot');
+const chilelimonBtn = document.getElementById('chilelimon');
+const sandpBtn = document.getElementById('sandp');
+const bakedBtn = document.getElementById('baked');
+const kettlecookedBtn = document.getElementById('kettlecooked');
 
-function lsalted() {
-  console.log('Lightly Salted');
-}
-
-function sandv() {
-  console.log('Salt and Vinegar');
-}
-
-function bbq() {
-  console.log('BBQ');
-}
-
-function scando() {
-  console.log('Sour Cream and Onion');
-}
-
-function dillpickle() {
-  console.log('Dill Pickle');
-}
-
-function candsc() {
-  console.log('Cheddar and Sour Cream');
-}
-
-function flaminhot() {
-  console.log('Flamin Hot');
-}
-
-function chilelimon() {
-  console.log('Chile Limon');
-}
-
-function sandp() {
-  console.log('Salt and Pepper');
-}
-
-function baked() {
-  console.log('Baked');
-}
-
-function kettlecooked() {
-  console.log('Kettle Cooked');
-}
+originalBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Cap";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+lsaltedBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Lib";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+sandvBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Gem";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+bbqBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Leo";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+scandoBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Pis";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+dillpickleBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Can";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+candscBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Sco";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+flaminhotBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Ari";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+chilelimonBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Vir";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+sandpBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Aqu";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+bakedBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Sag";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
+//
+kettlecookedBtn.addEventListener('click', function () {
+  console.log('User submit button clicked');
+  let AstroSign = "Tau";
+  console.log('AstroSign is: ' + AstroSign);
+  userPicked(AstroSign);
+});
 
 
 // Sound Control
@@ -114,8 +159,6 @@ const sandpObj = document.getElementById('sndSaltAndPepper');
 const bakedObj = document.getElementById('sndBaked');
 const kettlecookedObj = document.getElementById('sndKettleCooked');
 
-
-// WHICHONE
 
 // Calendar Input Code
 
@@ -176,12 +219,13 @@ userSubmitObj.addEventListener('click', function () {
 
 function userPicked(whichOne) {
   console.log('userPicked called: ' + whichOne);
+  generateQuote();
   switch (whichOne) {
     case 'Cap':
       zDisplayObj.src = 'images/original.png';
       zTitleObj.innerHTML = 'ORIGINAL';
       zDateRangeObj.innerHTML = 'December 22nd to Januard 19th';
-      zMoreInfoObj.innerHTML = '<p>Others might be tempted to call Original &quot;boring&comma;&quot; or &quot;plain&comma;&quot; or &quot;just potatoes and salt.&quot; But that&apos;s the thing- you KNOW you&apos;re just potatoes and salt. And you&apos;re proud of it. Because what you&apos;re doing with just potatoes and salt is sometimes 10x better than what those seasoning dudes are doing. You&apos;re also the only flavor my little brother will eat&comma; so&comma; uh&comma; go wild with that info I guess.</p>'
+      zMoreInfoObj.innerHTML = '<p>Others might be tempted to call Original &quot;boring&comma;&quot; or &quot;plain&comma;&quot; or &quot;just potatoes and salt.&quot; But that&apos;s the thing- you KNOW you&apos;re just potatoes and salt. And you&apos;re proud of it. Because what you&apos;re doing with just potatoes and salt is 10x better than what those seasoning dudes are doing. You&apos;re also the only flavor my little brother will eat&comma; so&comma; uh&comma; go wild with that info I guess.</p>'
       modal.hidden = !modal.hidden;
       stopAllAudio();
       originalObj.play();
@@ -306,3 +350,40 @@ const zDisplayObj = document.getElementById('zDisplayImg');
 const zTitleObj = document.getElementById('zTitle');
 const zDateRangeObj = document.getElementById('zDateRange');
 const zMoreInfoObj = document.getElementById('zMoreInfo');
+const saySomethingObj = document.getElementById('saySomething');
+
+// Mr. Potato code
+
+function generateQuote() {
+  var quotesArray = [
+    'Wow&excl; That&apos;s a good... chip.',
+    'This chip describes you.',
+    'Great chip&comma; buddy&excl;',
+    'Wow&excl; Now that&apos;s astrology&excl;',
+    'I&apos;m so glad I did my final project on potato chips.',
+    'This is so cool&excl; I really like chips&excl; A lot&excl;',
+    'Did you know in United Kingdom Britain they call them crisps&quest; I hate that. I really don&apos;t like that.',
+    'Hope you enjoy this potato flavor&excl;',
+    'Aren&apos;t you glad you inputted your birth date to this website&quest;',
+    'If you enjoyed this site&comma; be sure to follow potato chips on internet&excl;',
+    'If you prefer corn chips&comma; nope&excl;',
+    'Who needs astronomy when you have these tasty spuds&excl;',
+    'Share and tell your friends about this potato web application&excl;',
+    'What',
+    'The best potatoes are from Idaho&excl; This is considered a racist thing to say among potatoes.',
+    'How&apos;s your chips storage looking&quest; Wouldn&apos;t hurt to stock up&excl;',
+    'Popato&excl;',
+    'This is your favorite food now&excl; No questions.',
+    'I&apos;m Mr. Potato&excl; In case you forgot. In case you forgot my name.',
+    'Great chip and all but uhh... Mrs. Potato is calling again. Letting that one go to voicemail...',
+    'That&apos;s an epic flavor&excl; potato chip',
+    'I like the chips alot&excl; I like them',
+    'Mr. Potato love love love the tasty crunchy&excl;',
+    'No one is paying me to say these things&excl;',
+    'You can trust Mr. Potato. He loves you AND your family&excl;',
+    'Did you know potatoes are the vegetable ever&quest;&quest;',
+    'Mmm&excl; Tasty tuber image on your screen. Enjoy&excl;',
+    'Did you know potato backwards is Idaho&quest; No it&apos;s not. I lied. I don&apos;t know why I lied.'
+  ];
+  saySomethingObj.innerHTML = quotesArray[Math.floor(Math.random() * quotesArray.length)];
+}

@@ -1,6 +1,6 @@
 # IDM 231: Final Project
 
-## To Do:
+## To Do
 
 ### Zodiac Potato Chip Flavors
 
@@ -29,14 +29,14 @@
 - Ari: Flamin' Hot
 - Vir: Chile Limon
 - Aqu: Salt and Pepper
-- Sag: Baked 
+- Sag: Baked
 - Tau: Kettle Cooked
 
 ## Description paragraphs
 
 ### Original
 
-Others might be tempted to call Original &quot;boring&comma;&quot; or &quot;plain&comma;&quot; or &quot;just potatoes and salt.&quot; But that&apos;s the thing- you KNOW you&apos;re just potatoes and salt. And you&apos;re proud of it. Because what you&apos;re doing with just potatoes and salt is sometimes 10x better than what those seasoning dudes are doing. You&apos;re also the only flavor my little brother will eat&comma; so&comma; uh&comma; go wild with that info I guess.
+Others might be tempted to call Original &quot;boring&comma;&quot; or &quot;plain&comma;&quot; or &quot;just potatoes and salt.&quot; But that&apos;s the thing- you KNOW you&apos;re just potatoes and salt. And you&apos;re proud of it. Because what you&apos;re doing with just potatoes and salt is 10x better than what those seasoning dudes are doing. You&apos;re also the only flavor my little brother will eat&comma; so&comma; uh&comma; go wild with that info I guess.
 
 ### Lightly Salted
 
@@ -60,13 +60,13 @@ Alright&comma; look&comma; calm down. Dill Pickle isn&apos;t THAT bad. I mean&co
 
 ### Cheddar and Sour Cream
 
-You might be a little <i>cheesy</i> sometimes&comma; but your company never gets <i>sour</i>.
+You might be a little *cheesy* sometimes&comma; but your company never gets *sour*.
 
 And&comma; uh&comma; that&apos;s it. That&apos;s the description.
 
 ### Flamin&apos; Hot
 
-The spicy member of any friend group; you&apos;ve got the heat&comma; you never back down from a challenge&comma; and you make my sensitive Irish stomach go into conniptions.
+The spicy member of any friend group; you&apos;ve got the heatf you never back down from a challenge&comma; and you make my sensitive Irish stomach go into conniptions.
 
 ### Chile Limon
 
@@ -83,6 +83,39 @@ The healthiest of all the flavors&comma; you&apos;re the type of person to go on
 ### Kettle Cooked
 
 You&apos;ve got that signature crunch to your personality. What does that mean&comma; you ask&quest; I do not know.
+
+## Mr. Potato
+
+### His lines on the popup modals
+
+- 'Wow&excl; That&apos;s a good... chip.'
+- 'This chip describes you.''
+- 'Great chip&comma; buddy&excl;'
+- 'Wow&excl; Now that&apos;s astrology&excl;'
+- 'I&apos;m so glad I did my final project on potato chips.'
+- 'This is so cool&excl; I really like chips&excl; A lot&excl;'
+- 'Did you know in United Kingdom Britain they call them crisps&quest; I hate that. I really don&apos;t like that.'
+- 'Hope you enjoy this potato flavor&excl;'
+- 'Aren&apos;t you glad you inputted your birth date to this website&quest;'
+- 'If you enjoyed this site&comma; be sure to follow potato chips on internet&excl;'
+- 'If you prefer corn chips&comma; nope&excl;'
+- 'Who needs astronomy when you have these tasty spuds&excl;'
+- 'Share and tell your friends about this potato web application&excl;'
+- 'What'
+- 'The best potatoes are from Idaho&excl; This is considered a racist thing to say among potatoes.'
+- 'How&apos;s your chips storage looking&quest; Wouldn&apos;t hurt to stock up&excl;'
+- 'Popato&excl;'
+- 'This is your favorite food now&excl; No questions.'
+- 'I&apos;m Mr. Potato&excl; In case you forgot. In case you forgot my name.'
+- 'Great chip and all but uhh... Mrs. Potato is calling again. Letting that one go to voicemail...'
+- 'That&apos;s an epic flavor&excl; potato chip'
+- 'I like the chips alot&excl; I like them'
+- 'Mr. Potato love love love the tasty crunchy&excl;'
+- 'No one is paying me to say these things&excl;'
+- 'You can trust Mr. Potato. He loves you AND your family&excl;'
+- 'Did you know potatoes are the vegetable ever&quest;&quest;'
+- 'Mmm&excl; Tasty tuber image on your screen. Enjoy&excl;'
+- 'Did you know potato backwards is Idaho&quest; No it&apos;s not. I lied. I don&apos;t know why I lied.'
 
 ## Actual Zodiac components needed
 

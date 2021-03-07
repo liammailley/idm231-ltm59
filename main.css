@@ -27,8 +27,6 @@ body.blackScreen {
 }
 
 .choiceandpotato {
-  display: grid;
-  grid-template-columns: 75% 25%;
   margin: 10rem 0 0 0;
 }
 
@@ -48,26 +46,37 @@ body.blackScreen {
 .manualchoice {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 .mrpotato {
-  max-height: 12rem;
+  max-height: 11rem;
 }
 
 .mrpotatobox {
   display: flex;
   /*max-width: 40%;*/
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .speech-bubble {
-  background-color: #f8f8f8;
-  border: 1px solid #c8c8c8;
-  border-radius: 5px;
-  width: 10rem;
-  text-align: center;
-  padding: 20px 10px 0 10px;
+	background-color: #f8f8f8;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+	/*width: 10rem;*/
+	text-align: center;
+	padding: 20px 10px 0 10px;
+   }
+
+.mrpotatosays {
+	font-size: 0.9rem;
+	color: #E46F62;
+}
+
+#saySomething {
+	font-size: 1.1rem;
+	padding: 0;
+	line-height: 3px;
 }
 
 .placeholder {
@@ -84,6 +93,10 @@ body.blackScreen {
   justify-content: center;
   align-items: center;
   margin: 14rem 0 0 0;
+}
+
+.titleAndDate {
+	margin: 0
 }
 
 
@@ -109,7 +122,7 @@ html {
 }
 
 button {
-	background-color: skyblue;
+	background-color: #E46F62;
 	padding: .75rem;
 	margin: .75rem;
 	border-radius: 0;
@@ -119,11 +132,13 @@ button {
 	font-weight: bold;
 	text-transform: uppercase;
 	transition: background-color 225ms ease-in-out;
+	transition: color 225ms ease-in-out;
 }
 
 button:hover,
 button:focus {
-	background-color: palevioletred;
+	background-color: #DC3F2E;
+	color: white;
 }
 
 button:hover {
@@ -159,7 +174,7 @@ button:hover {
 
 .modal-body {
 	background-color: #CCA831;
-	border: 1rem solid #C03221;
+	border: 1rem solid #335145;
 
 	height: 90vh;
 	max-width: 50vw;
@@ -176,12 +191,15 @@ button:hover {
 	font-size: 2rem;
 	font-weight: 300;
 	text-align: center;
+
+	border-radius: 1rem;
 }
 
 /* Modal Content Styling */
 
 #zDisplayImg {
-	max-height: 10rem;
+	max-height: 8rem;
+	margin-top: 1rem;
 }
 
 #zTitle {
