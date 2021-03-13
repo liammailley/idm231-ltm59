@@ -1,7 +1,5 @@
 # IDM 231: Final Project
 
-## To Do
-
 ### Zodiac Potato Chip Flavors
 
 - Original
@@ -86,7 +84,7 @@ You&apos;ve got that signature crunch to your personality. What does that mean&c
 
 ## Mr. Potato
 
-### His lines on the popup modals
+### All Mr. Potato lines
 
 - 'Wow&excl; That&apos;s a good... chip.'
 - 'This chip describes you.''
@@ -116,9 +114,3 @@ You&apos;ve got that signature crunch to your personality. What does that mean&c
 - 'Did you know potatoes are the vegetable ever&quest;&quest;'
 - 'Mmm&excl; Tasty tuber image on your screen. Enjoy&excl;'
 - 'Did you know potato backwards is Idaho&quest; No it&apos;s not. I lied. I don&apos;t know why I lied.'
-
-## Actual Zodiac components needed
-
-Sound effects needed
-
-Visuals needed

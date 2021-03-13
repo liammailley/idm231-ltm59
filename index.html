@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="main.css">
   <style>
     body {
-      background-image: url('231background.png');
+      background-image: url('images/231background.png');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -31,54 +31,22 @@ Libra-        Lightly Salted
 Scorpio-    Cheddar Jalapeno
 Sagittarius-    Baked
 
-His lines on the popup modals:
-'Wow! That's a good... chip.'
-'This chip describes you.''
-'Great chip, buddy!'
-'Wow! Now that's astrology!'
-'I'm so glad I did my final project on potato chips.'
-'This is so cool! I really like chips! A lot!'
-'Did you know in United Kingdom Britain they call them crisps? I hate that. I really don't like that.'
-'Hope you enjoy this potato flavor!'
-'Aren't you glad you inputted your birth date to this website?'
-'If you enjoyed this site, be sure to follow potato chips on internet!'
-'If you prefer corn chips, nope!'
-'Who needs astronomy when you have these tasty spuds!'
-'Share and tell your friends about this potato web application!'
-'What'
-'The best potatoes are from Idaho! This is considered a racist thing to say among potatoes.'
-'How's your chips storage looking? Wouldn't hurt to stock up!'
-'Popato!'
-'This is your favorite food now! No questions.'
-'I'm Mr. Potato! In case you forgot. In case you forgot my name.'
-'Great chip and all but uhh... Mrs. Potato is calling again. Letting that one go to voicemail...'
-'That's an epic flavor! potato chip'
-'I like the chips alot! I like them'
-'Mr. Potato love love love the tasty crunchy!'
-'No one is paying me to say these things!'
-'You can trust Mr. Potato. He loves you AND your family!'
-'Did you know potatoes are the vegetable ever??'
-'Mmm! Tasty tuber image on your screen. Enjoy!'
-'Did you know potato backwards is Idaho? No it's not. I lied. I don't know why I lied.'
-
-
-
 -->
 <body class="blackScreen" onload="fade2Content();">
 
 <!-- Preload Sound Files -->
-<audio id="sndOriginal" src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
-<audio id="sndOriginal"  src="sounds/INSERTSOUND.mp3" preload="auto"></audio></audio>
+<audio id="sndOriginal" src="sounds/sndOriginal.mp3" preload="auto"></audio></audio>
+<audio id="sndLightlySalted"  src="sounds/sndLightlySalted.mp3" preload="auto"></audio></audio>
+<audio id="sndSaltAndVinegar"  src="sounds/sndSaltAndVinegar.mp3" preload="auto"></audio></audio>
+<audio id="sndBBQ"  src="sounds/sndBBQ.mp3" preload="auto"></audio></audio>
+<audio id="sndSourCreamAndOnion"  src="sounds/sndSourCreamAndOnion.mp3" preload="auto"></audio></audio>
+<audio id="sndDillPickle"  src="sounds/sndDillPickle.mp3" preload="auto"></audio></audio>
+<audio id="sndCheddarAndSourCream"  src="sounds/sndCheddarAndSourCream.mp3" preload="auto"></audio></audio>
+<audio id="sndFlaminHot"  src="sounds/sndFlaminHot.mp3" preload="auto"></audio></audio>
+<audio id="sndChileLimon"  src="sounds/sndChileLimon.mp3" preload="auto"></audio></audio>
+<audio id="sndSaltAndPepper"  src="sounds/sndSaltAndPepper.mp3" preload="auto"></audio></audio>
+<audio id="sndBaked"  src="sounds/sndBaked.mp3" preload="auto"></audio></audio>
+<audio id="sndKettleCooked"  src="sounds/sndKettleCooked.mp3" preload="auto"></audio></audio>
 
   <div class="formbox">
     <div class="wrapper">
@@ -125,18 +93,18 @@ His lines on the popup modals:
 <!-- "choiceandpotato" refers to the single grid row containing both manual flavor choices, and the Mr. Potato Decoration.-->
   <div class="choiceandpotato">
       <div class="manualchoice">
-          <input type="image" src="images/original.png" name="Original" class="zButton" id="original" onclick="original()"/>
-          <input type="image" src="images/lightlysalted.png" name="Lightly Salted" class="zButton" id="lsalted" onclick="lsalted()"/>
-          <input type="image" src="images/saltandvinegar.png" name="Salt and Vinegar" class="zButton" id="sandv" onclick="sandv()"/>
-          <input type="image" src="images/bbq.png" name="BBQ" class="zButton" id="bbq" onclick="bbq()"/>
-          <input type="image" src="images/sourcreamandonion.png" name="Sour Cream and Onion" class="zButton" id="scando" onclick="scando()"/>
-          <input type="image" src="images/dillpickle.png" name="Dill Pickle" class="zButton" id="dillpickle" onclick="dillpickle()"/>
-          <input type="image" src="images/cheddarandsourcream.png" name="Cheddar and Sour Cream" class="zButton" id="candsc" onclick="candsc()"/>
-          <input type="image" src="images/flaminhot.png" name="Flamin' Hot" class="zButton" id="flaminhot" onclick="flaminhot()"/>
-          <input type="image" src="images/chilelimon.png" name="Chile Limon" class="zButton" id="chilelimon" onclick="chilelimon()"/>
-          <input type="image" src="images/saltandpepper.png" name="Salt and Pepper" class="zButton" id="sandp" onclick="sandp()"/>
-          <input type="image" src="images/baked.png" name="Baked" class="zButton" id="baked" onclick="baked()"/>
-          <input type="image" src="images/kettlecooked.png" name="Kettle Cooked" class="zButton" id="kettlecooked" onclick="kettlecooked()"/>
+          <input type="image" src="images/original.png" name="Original" class="zButton" id="original"/>
+          <input type="image" src="images/lightlysalted.png" name="Lightly Salted" class="zButton" id="lsalted"/>
+          <input type="image" src="images/saltandvinegar.png" name="Salt and Vinegar" class="zButton" id="sandv"/>
+          <input type="image" src="images/bbq.png" name="BBQ" class="zButton" id="bbq"/>
+          <input type="image" src="images/sourcreamandonion.png" name="Sour Cream and Onion" class="zButton" id="scando"/>
+          <input type="image" src="images/dillpickle.png" name="Dill Pickle" class="zButton" id="dillpickle"/>
+          <input type="image" src="images/cheddarandsourcream.png" name="Cheddar and Sour Cream" class="zButton" id="candsc"/>
+          <input type="image" src="images/flaminhot.png" name="Flamin' Hot" class="zButton" id="flaminhot"/>
+          <input type="image" src="images/chilelimon.png" name="Chile Limon" class="zButton" id="chilelimon"/>
+          <input type="image" src="images/saltandpepper.png" name="Salt and Pepper" class="zButton" id="sandp"/>
+          <input type="image" src="images/baked.png" name="Baked" class="zButton" id="baked"/>
+          <input type="image" src="images/kettlecooked.png" name="Kettle Cooked" class="zButton" id="kettlecooked"/>
       </div>
   </div>
 

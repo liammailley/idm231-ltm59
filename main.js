@@ -6,7 +6,7 @@ function fade2Content() {
 }
 
 
-// Buttons
+// Button Declares
 
 const originalBtn = document.getElementById('original');
 const lsaltedBtn = document.getElementById('lsalted');
@@ -20,6 +20,25 @@ const chilelimonBtn = document.getElementById('chilelimon');
 const sandpBtn = document.getElementById('sandp');
 const bakedBtn = document.getElementById('baked');
 const kettlecookedBtn = document.getElementById('kettlecooked');
+
+
+// Sound Declares
+
+const originalObj = document.getElementById('sndOriginal');
+const lsaltedObj = document.getElementById('sndLightlySalted');
+const sandvObj = document.getElementById('sndSaltAndVinegar');
+const bbqObj = document.getElementById('sndBBQ');
+const scandoObj = document.getElementById('sndSourCreamAndOnion');
+const dillpickleObj = document.getElementById('sndDillPickle');
+const candscObj = document.getElementById('sndCheddarAndSourCream');
+const flaminhotObj = document.getElementById('sndFlaminHot');
+const chilelimonObj = document.getElementById('sndChileLimon');
+const sandpObj = document.getElementById('sndSaltAndPepper');
+const bakedObj = document.getElementById('sndBaked');
+const kettlecookedObj = document.getElementById('sndKettleCooked');
+
+
+// Button Functionality
 
 originalBtn.addEventListener('click', function () {
   console.log('User submit button clicked');
@@ -108,6 +127,8 @@ kettlecookedBtn.addEventListener('click', function () {
 
 // Sound Control
 
+const speakers = document.getElementById('speakers');
+
 function stopAllAudio() {
   originalObj.pause();
   originalObj.currentTime = 0;
@@ -145,19 +166,6 @@ function stopAllAudio() {
   kettlecookedObj.pause();
   kettlecookedObj.currentTime = 0;
 }
-
-const originalObj = document.getElementById('sndOriginal');
-const lsaltedObj = document.getElementById('sndLightlySalted');
-const sandvObj = document.getElementById('sndSaltAndVinegar');
-const bbqObj = document.getElementById('sndBBQ');
-const scandoObj = document.getElementById('sndSourCreamAndOnion');
-const dillpickleObj = document.getElementById('sndDillPickle');
-const candscObj = document.getElementById('sndCheddarAndSourCream');
-const flaminhotObj = document.getElementById('sndFlaminHot');
-const chilelimonObj = document.getElementById('sndChileLimon');
-const sandpObj = document.getElementById('sndSaltAndPepper');
-const bakedObj = document.getElementById('sndBaked');
-const kettlecookedObj = document.getElementById('sndKettleCooked');
 
 
 // Calendar Input Code
