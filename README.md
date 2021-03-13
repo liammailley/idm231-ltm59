@@ -1,6 +1,6 @@
 # IDM 231: Final Project
 
-### Zodiac Potato Chip Flavors
+## Zodiac Potato Chip Flavors
 
 - Original
 - Lightly Salted
