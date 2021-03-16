@@ -72,6 +72,7 @@ body.blackScreen {
 	font-size: 1.1rem;
 	padding: 0;
 	line-height: 3px;
+	margin: 0 10px;
 }
 
 .placeholder {
@@ -122,6 +123,7 @@ button {
 	text-transform: uppercase;
 	transition: background-color 225ms ease-in-out;
 	transition: color 225ms ease-in-out;
+	border-radius: 20px;
 }
 
 button:hover,
@@ -165,8 +167,8 @@ button:hover {
 	background-color: #CCA831;
 	border: 1rem groove #335145;
 
-	height: 80vh;
-	max-width: 50vw;
+	height: 85vh;
+	max-width: 60vw;
 
 	position: relative;
 	z-index: 101;
@@ -204,6 +206,8 @@ button:hover {
 
 #zMoreInfo {
 	font-size: 1rem;
+	text-align: left;
+	padding-left: 1rem;
 }
 
 .mrpotato {
@@ -212,7 +216,6 @@ button:hover {
 
 .mrpotatobox {
 	display: flex;
-	/*max-width: 40%;*/
 	justify-content: center;
 }
 
@@ -220,14 +223,16 @@ button:hover {
 	background-color: #f8f8f8;
 	border: 1px solid #c8c8c8;
 	border-radius: 5px;
-	/*width: 10rem;*/
 	text-align: center;
 	padding: 20px 10px 0 10px;
+	border: 0.1rem groove #335145;
+	border-radius: 50px;
    }
 
 .mrpotatosays {
 	font-size: 0.9rem;
 	color: #E46F62;
+	margin-bottom: 10px;
 }
 
 /* Header Styling */
