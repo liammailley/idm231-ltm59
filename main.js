@@ -175,10 +175,6 @@ const userSubmitObj = document.getElementById('userSubmit');
 userSubmitObj.addEventListener('click', function () {
   console.log('User submit button clicked');
 
-  // Get the user's first name and store it in a var
-  //const userFirstName = document.getElementById('fname').value;
-  //console.log('userFirstName is: ' + userFirstName);
-
   // Get the user's date and extract the month of year and day of month
   const userBday = new Date(document.getElementById('bday').value);
 
@@ -189,7 +185,7 @@ userSubmitObj.addEventListener('click', function () {
   const whichDayOfMonth = userBday.getUTCDate();
   console.log('whichDayOfMonth is: ' + whichDayOfMonth);
 
-  // Display custom image based on zodaic sign
+  // Display custom image based on zodiac sign
   let AstroSign = "";
 
   if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayOfMonth <= 19)) {
@@ -360,6 +356,7 @@ const zDateRangeObj = document.getElementById('zDateRange');
 const zMoreInfoObj = document.getElementById('zMoreInfo');
 const saySomethingObj = document.getElementById('saySomething');
 
+
 // Mr. Potato code
 
 function generateQuote() {
@@ -383,7 +380,6 @@ function generateQuote() {
     'Popato&excl;',
     'This is your favorite food now&excl; No questions.',
     'I&apos;m Mr. Potato&excl; In case you forgot. In case you forgot my name.',
-    'Great chip and all but uhh... Mrs. Potato is calling again. Letting that one go to voicemail...',
     'That&apos;s an epic flavor&excl; potato chip',
     'I like the chips alot&excl; I like them',
     'Mr. Potato love love love the tasty crunchy&excl;',

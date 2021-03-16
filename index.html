@@ -16,22 +16,9 @@
   </style>
 </head>
 
-<!--
 
-Capricorn-    Original
-Aquarius-    Salt and Pepper
-Pisces-        Sour Cream and Onion
-Aries-        Flamin' Hot
-Taurus-        Kettle Cooked
-Gemini-        Salt and Vinegar
-Cancer-        Dill Pickle
-Leo-        BBQ
-Virgo-        Chile Limon
-Libra-        Lightly Salted
-Scorpio-    Cheddar Jalapeno
-Sagittarius-    Baked
 
--->
+
 <body class="blackScreen" onload="fade2Content();">
 
 <!-- Preload Sound Files -->
@@ -48,13 +35,14 @@ Sagittarius-    Baked
 <audio id="sndBaked"  src="sounds/sndBaked.mp3" preload="auto"></audio>
 <audio id="sndKettleCooked"  src="sounds/sndKettleCooked.mp3" preload="auto"></audio>
 
+<!-- Header -->
   <div class="titleObj">
     <h1 class="title">
       WHAT POTATO CHIP FLAVOR ARE YOU?
     </h1>
   </div>
 
-
+<!-- Date input box -->
   <div class="formbox">
     <div class="wrapper">
       <h1>
@@ -62,16 +50,6 @@ Sagittarius-    Baked
       </h1>
         <!-- Form to submit name/date: -->
       <form id="userInfo" name="myForm">
-        <!--<div class="control">
-          <label for="name">Name</label>
-          <input
-            type="text"
-            id="fname"
-            name="name"
-            placeholder="Your First Name"
-            required
-          />
-        </div>-->
         <div class="control">
           <label for="date">Date</label>
           <input
@@ -89,16 +67,7 @@ Sagittarius-    Baked
     </div>
   </div>
 
-
-
-  <!--<div class="placeholder">
-    <p>
-      placeholder
-    </p>
-  </div>-->
-
-<!-- "choiceandpotato" refers to the single grid row containing both manual flavor choices, and the Mr. Potato Decoration.-->
-  <div class="choiceandpotato">
+  <div class="manualchoiceObj">
       <div class="manualchoice">
           <input type="image" src="images/original.webp" name="Original" class="zButton" id="original"/>
           <input type="image" src="images/lightlysalted.webp" name="Lightly Salted" class="zButton" id="lsalted"/>
@@ -115,7 +84,9 @@ Sagittarius-    Baked
       </div>
   </div>
 
-  <div id="modal" class="modal" hidden> <!-- YO ITS HIDDEN BC THERES A HIDDEN HERE-->
+
+  <!-- Modal (modal is initially hidden)-->
+  <div id="modal" class="modal" hidden>
     <div class="modal-body">
       <div class="modal-content">
         <div>

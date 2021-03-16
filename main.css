@@ -1,5 +1,8 @@
 @import 'fonts/stylesheet.css';
 
+
+/* General Styling */
+
 h1 {
   font-family: Subway, Arial, sans-serif;
   margin-top: 0;
@@ -26,9 +29,23 @@ body.blackScreen {
   transition: none;
 }
 
-.choiceandpotato {
+
+
+/* Manual Choice Styling */
+
+.manualchoiceObj {
   margin: 10rem 0 0 0;
 }
+
+.manualchoice {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+/* Form Box Styling */
 
 .wrapper {
   display: flex;
@@ -44,35 +61,12 @@ body.blackScreen {
   border-radius: 40px;
 }
 
-.manualchoice {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.mrpotato {
-  max-height: 11rem;
-}
-
-.mrpotatobox {
-  display: flex;
-  /*max-width: 40%;*/
-  justify-content: center;
-}
-
-.speech-bubble {
-	background-color: #f8f8f8;
-	border: 1px solid #c8c8c8;
-	border-radius: 5px;
-	/*width: 10rem;*/
-	text-align: center;
-	padding: 20px 10px 0 10px;
+.formbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 12rem 0 0 0;
    }
-
-.mrpotatosays {
-	font-size: 0.9rem;
-	color: #E46F62;
-}
 
 #saySomething {
 	font-size: 1.1rem;
@@ -89,20 +83,14 @@ body.blackScreen {
   margin: 0 5px;
 }
 
-.formbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 12rem 0 0 0;
-}
-
 .titleAndDate {
 	margin: 0;
 }
 
 
-/* THE MODAL */
 
+
+/* THE MODAL */
 
 /* Modal Content */
 
@@ -117,7 +105,7 @@ html {
 	box-sizing: inherit;
 }
 
-/* Add this last */
+/* Hidden Controls */
 [hidden] {
 	display: none !important;
 }
@@ -216,6 +204,30 @@ button:hover {
 
 #zMoreInfo {
 	font-size: 1rem;
+}
+
+.mrpotato {
+	max-height: 11rem;
+}
+
+.mrpotatobox {
+	display: flex;
+	/*max-width: 40%;*/
+	justify-content: center;
+}
+
+.speech-bubble {
+	background-color: #f8f8f8;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+	/*width: 10rem;*/
+	text-align: center;
+	padding: 20px 10px 0 10px;
+   }
+
+.mrpotatosays {
+	font-size: 0.9rem;
+	color: #E46F62;
 }
 
 /* Header Styling */
