@@ -176,8 +176,8 @@ userSubmitObj.addEventListener('click', function () {
   console.log('User submit button clicked');
 
   // Get the user's first name and store it in a var
-  const userFirstName = document.getElementById('fname').value;
-  console.log('userFirstName is: ' + userFirstName);
+  //const userFirstName = document.getElementById('fname').value;
+  //console.log('userFirstName is: ' + userFirstName);
 
   // Get the user's date and extract the month of year and day of month
   const userBday = new Date(document.getElementById('bday').value);

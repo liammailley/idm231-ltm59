@@ -40,7 +40,8 @@ body.blackScreen {
   max-width: 60%;
   max-height: 12rem;
   box-shadow: 10px 10px 50px 10px #000000;
-  border-radius: 10px;
+  border: 0.5rem groove #335145;
+  border-radius: 40px;
 }
 
 .manualchoice {
@@ -92,11 +93,11 @@ body.blackScreen {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 14rem 0 0 0;
+  margin: 12rem 0 0 0;
 }
 
 .titleAndDate {
-	margin: 0
+	margin: 0;
 }
 
 
@@ -174,7 +175,7 @@ button:hover {
 
 .modal-body {
 	background-color: #CCA831;
-	border: 1rem solid #335145;
+	border: 1rem groove #335145;
 
 	height: 80vh;
 	max-width: 50vw;
@@ -192,13 +193,14 @@ button:hover {
 	font-weight: 300;
 	text-align: center;
 
-	border-radius: 1rem;
+	border-radius: 50px;
+
 }
 
 /* Modal Content Styling */
 
 #zDisplayImg {
-	max-height: 8rem;
+	max-height: 14rem;
 	margin-top: 1rem;
 }
 
@@ -214,4 +216,14 @@ button:hover {
 
 #zMoreInfo {
 	font-size: 1rem;
+}
+
+/* Header Styling */
+
+h1.title {
+	font-family: "National Park", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 3.5rem;
+	text-align: center;
+	margin-top: 1rem;
+	text-shadow: 5px 5px #E46F62;
 }
